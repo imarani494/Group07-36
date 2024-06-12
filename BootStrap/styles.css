@@ -1,12 +1,77 @@
 /* <!-- ravi start
 ravi end -->
-<!-- imran start
-imran end -->
-<!-- chandrka start
+/* <!-- imran start */
+.tabs-btn {
+      font: 14px;
+      font-family: "Roboto", sans-serif;
+
+
+
+    }
+
+    .nav-btns {
+      display: flex;
+      justify-content: center;
+
+    }
+
+    .nav-btns>div {
+      height: 33px;
+      font-size: 14px;
+      width: 161px;
+      background-color: white;
+      padding: 20px 30px 20px 0;
+      box-sizing: content-box;
+      font-weight: bold;
+      font-family: "Roboto", sans-serif;
+
+    }
+
+    .n-btn {
+      position: relative;
+      top: -85px;
+      z-index: 1;
+      cursor: pointer;
+    }
+
+    .n-btn-icons {
+      left: 50px;
+      top: -40px;
+     z-index: 1;
+      cursor: pointer;
+    }
+
+    .n-btn-icons i {
+      opacity: 0.5;
+      transition: opacity 0.3s;
+      cursor: pointer;
+    }
+
+    .n-btn-icons i:hover {
+      opacity: 1;
+
+    }
+
+    .carousel-btn {
+      clip-path: polygon(15% 0, 93% 0, 100% 0%, 100% 70%, 90% 98%, 0 100%, 0 30%);
+      position: relative;
+      top: -130px;
+      left: 180px;
+      background-color: #e62429;
+      color: white;
+      padding: 10px 30px;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: 800;
+      border: none;
+      font-family: "Roboto", sans-serif;
+    }
+/* imran end --> */
+/* <!-- chandrka start
 chandrika end -->
 <!-- anjana start
 anjana end  -->
 <!-- abhishek start
 abhishek end -->
 <!-- ravi footer start
-ravi footer end --> */
+ravi footer end --> */ */
