@@ -1,4 +1,30 @@
 
+
+.i-frame-container{
+    margin-left: 8.80%;
+    margin-right: 10.10%;
+    margin-top: 60px;
+    background-color: aquamarine;
+    height: 580px;
+}
+
+.text2{
+    margin-left: 8.80%;
+    margin-right: 10.10%;
+    margin-top: 0px;
+    padding-top: 25px;
+    font: 600 13px / 1 RobotoCondensed Bold, Trebuchet MS, Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+    color: gray;
+    text-transform: uppercase;
+    background-color: lightgray;
+    height: 180px;
+}
+/* abhishek end --> * */
+/* <!-- ravi footer start
+ravi footer end --> */ 
+=======
+
 .tabs-btn {
       font: 14px;
       font-family: "Roboto", sans-serif;
@@ -133,4 +159,5 @@ body {
     font-size: 12px;
     font-family: "Roboto", sans-serif;
   }
+
 
