@@ -1,6 +1,4 @@
-/* <!-- ravi start
-ravi end -->
-/* <!-- imran start */
+
 .tabs-btn {
       font: 14px;
       font-family: "Roboto", sans-serif;
@@ -68,10 +66,71 @@ ravi end -->
     }
 /* imran end --> */
 /* <!-- chandrka start
-chandrika end -->
-<!-- anjana start
-anjana end  -->
-<!-- abhishek start
-abhishek end -->
-<!-- ravi footer start
-ravi footer end --> */ */
+=======
+/* <!-- ravi start-->*/
+body {
+    margin: 0px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+
+
+  }
+  .logo-container {
+  display: inline-block;
+  position: relative;
+  
+}
+.logo, .full-logo {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  transition: opacity 0.5s;
+  background-color: red;
+
+}
+.full-logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.logo-container:hover .logo {
+  opacity: 0;
+}
+.logo-container:hover .full-logo {
+  opacity: 1;
+}
+  .login {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+
+  }
+
+  .login>p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+
+  }
+
+  .nav2>span {
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+  }
+
