@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+.anj1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .Anjana {
   margin: 0;
   padding: 0;
@@ -6,25 +12,29 @@
   flex-direction: column;
   align-items: center;
   font-family: "Inter", sans-serif;
+  background: url("./assets/images/Frame (1).png");
+  background-size: cover;
+  background-position: center;
+  width: 1920px;
+  height: 860px;
+  justify-content: center;
 }
 
-.background-container {
-  width: 100%;
-  height: 100vh;
-  background: url("./assets/images/Frame (1).png") no-repeat center center;
-  background-size: 1920px 860px;
-  position: relative;
+nav {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  width: 1320px;
+  height: 88px;
+  padding: 0 20px;
+  position: absolute;
+  top: 0%;
 }
-
 nav img {
   width: 167px;
   height: 32px;
 }
-
-.nav_main {
+nav .nav_main {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,38 +42,24 @@ nav img {
   max-width: 1320px;
   height: 88px;
 }
-
-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: 1320px;
-  height: 88px;
-  position: absolute;
-  top: 0;
-  padding: 0 20px;
-}
-
-.navbox1 {
+nav .navbox1 {
   display: flex;
   align-items: center;
 }
-.navbox1 span {
+nav .navbox1 span {
   margin-left: 40px;
 }
-.navbox1 span:nth-of-type(1) {
+nav .navbox1 span:nth-of-type(1) {
   color: orange;
 }
-
-.navbox2 {
+nav .navbox2 {
   display: flex;
   align-items: center;
 }
-.navbox2 span {
+nav .navbox2 span {
   margin-left: 30px;
 }
-.navbox2 button {
+nav .navbox2 button {
   width: 83.31px;
   height: 44px;
   font-family: Inter;
@@ -76,77 +72,82 @@ nav {
   background-color: transparent;
 }
 
-section {
+.nav1 {
   width: 880px;
   height: 254px;
-  margin-top: 100px;
+  position: absolute;
+  top: 134px;
 }
-section h1 {
+
+.anj_heading {
   font-family: Inter;
   font-size: 60px;
   font-weight: 600;
   text-align: center;
-  padding: 0px;
+  padding-left: 108px;
+  margin-top: 0%;
+  background: linear-gradient(90.84deg, #EE8C61 27.01%, #4C43C4 87.3%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 664px;
+  height: 151px;
 }
 
 .searchform {
   width: 850px;
   height: 80px;
-  padding: 10px;
   border-radius: 200px;
   background-color: #ffffff;
   box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.0509803922);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 7px;
 }
-
-.form {
+.searchform .form {
   width: 768px;
   height: 60px;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
-.form div {
+.searchform .form > div {
   width: 249.33px;
   height: 50px;
-  background-color: white;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  gap: 10px;
 }
-.form .circle1 {
+.searchform .form .cir {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #EE8C61;
+  border: 0px;
+}
+.searchform .form .cir1 {
   width: 50px;
   height: 50px;
   border-radius: 50px;
   background-color: rgba(235, 102, 43, 0.0509803922);
 }
-
-.circle {
-  width: 62px;
-  height: 60px;
-  border-radius: 50%;
-  background: #eb662b;
-}
-
-.info {
-  width: 128.36px;
+.searchform .form .info {
+  width: 130.36px;
   height: 43.59px;
-  padding-left: 10px;
   display: flex;
   flex-direction: column;
 }
-.info span:nth-of-type(1) {
+.searchform .form .info > span:nth-of-type(1) {
   font-size: 14.88px;
   font-weight: 500;
   color: #05073C;
 }
-.info span:nth-of-type(2) {
+.searchform .form .info > span:nth-of-type(2) {
   font-size: 13.67px;
   font-weight: 400;
   color: #717171;
 }
-
-.date {
+.searchform .form .date {
   width: 151.84px;
   height: 18px;
   font-size: 13.34px;
