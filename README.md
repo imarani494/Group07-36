@@ -7,7 +7,8 @@ This is a collaborative project done in five days from 11 june 2024 to 17 june 2
 1. Cloning Marvel Website 
 2. Redering a Figma Design
 
-### Directory Structure
+<pre>
+ ### Directory Structure
 Intel-Titans_031--
 |-----frontend/
 ├───Bootstrap/
@@ -25,6 +26,7 @@ Intel-Titans_031--
 │   │   ├───Header/
 │   │   ├───Section/
 │   │   └───Footer/
+</pre>
 
 
 ### Section 1: Cloning Marvel Website 
@@ -66,8 +68,7 @@ Frontend: https://www.netlify.com
 
 ## Video Walkthrough of the project
 
-a very short video walkthough of all of the features:
-https://www.youtube.com/watch?v=eUm5M1ga6Ho
+
 
 
 ## Video Walkthrough of the codebase
