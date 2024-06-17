@@ -221,12 +221,16 @@ anjana end  -->
     }
 
     .btn1 {
-      background-color: transparent;
+      /* background-color: transparent; */
       color: white;
       border: 2px solid white;
       box-sizing: border-box;
       padding: 15px;
-    }
+      clip-path: polygon(15% 0,93% 0,100% 0%,100% 70%,90% 98%,7% 98%,0 100%,0 30%);
+      width: 300px;
+      border-color: white;
+      background-color: #e62429;
+       }
 
     .card1 {
       font-family: "Roboto Condensed", sans-serif;
