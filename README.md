@@ -7,6 +7,25 @@ This is a collaborative project done in five days from 11 june 2024 to 17 june 2
 1. Cloning Marvel Website 
 2. Redering a Figma Design
 
+### Directory Structure
+Intel-Titans_031--
+|-----frontend/
+├───Bootstrap/
+│   ├───assets/
+│   │   ├───images/
+│   ├───Index.html/
+│   │   ├───Header/
+│   │   ├───Section/
+│   │   └───Footer/
+|
+├───Figma/
+│   ├───assets/
+│   │   ├───images/
+│   ├───Index.html/
+│   │   ├───Header/
+│   │   ├───Section/
+│   │   └───Footer/
+
 
 ### Section 1: Cloning Marvel Website 
 
