@@ -24,6 +24,13 @@ Frontend
 
 Frontend: https://www.netlify.com
 
+## Deployment
+#Figma:-
+https://effulgent-tulumba-5c4265.netlify.app/
+
+#Bootstrap:-Marvel
+https://calm-tarsier-000573.netlify.app/
+
 ## Directory Structure
 
 <pre>
