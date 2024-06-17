@@ -84,10 +84,12 @@ Refer[ https://getbootstrap.com/docs/5.3/getting-started/download/](https://getb
 
 - HTML
 - CSS
+- Bootstrap
+- scss
 
 ## Feedback
 
 Welcome to the Project! We value your feedback and suggestions.
-Please open an issue if you have any feedback, suggestions, or bug reports. We appreciate your input! 
+Please open an issue if you have any feedback, suggestions, or bug reports. We appreciate your suggestion! 
 
 Thank you for helping us improve the Project!
